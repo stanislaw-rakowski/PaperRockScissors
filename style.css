@@ -1,0 +1,46 @@
+body {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto;
+}
+
+#game-window {
+    border: solid black 5px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5%;
+    width: 60vw;
+    height: 40vh;
+}
+
+button {
+    border: solid black 1px;
+    padding: 5px 8px;
+    background-color: white;
+    color: black;
+    transition: 300ms;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 300ms;
+}
+
+#result-output {
+    margin: 7px;
+    height: 20px;
+}
+
+img {
+    height: 30vh;
+    margin-top: 50px;
+    border: solid black 5px;
+}
